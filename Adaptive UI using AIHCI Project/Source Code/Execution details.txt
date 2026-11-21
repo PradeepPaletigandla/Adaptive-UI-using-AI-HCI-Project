@@ -1,0 +1,123 @@
+
+(base) C:\Users\palet>cd C:\Users\palet
+
+(base) C:\Users\palet>
+(base) C:\Users\palet>mkdir workday-training-recommender
+
+(base) C:\Users\palet>
+(base) C:\Users\palet>cd workday-training-recommendermkdir templates
+The system cannot find the path specified.
+
+(base) C:\Users\palet>mkdir static(base) C:\Users\palet>
+The syntax of the command is incorrect.
+
+(base) C:\Users\palet>cd workday-training-recommender
+
+(base) C:\Users\palet\workday-training-recommender>mkdir templates
+
+(base) C:\Users\palet\workday-training-recommender>mkdir static
+
+(base) C:\Users\palet\workday-training-recommender>type nul > app.py
+
+(base) C:\Users\palet\workday-training-recommender>type nul > recommendation_engine.py
+
+(base) C:\Users\palet\workday-training-recommender>type nul > training_data.csv
+
+(base) C:\Users\palet\workday-training-recommender>type nul > requirements.txt
+
+(base) C:\Users\palet\workday-training-recommender>type nul > templates\index.html
+
+(base) C:\Users\palet\workday-training-recommender>type nul > static\style.css
+
+(base) C:\Users\palet\workday-training-recommender>tree /f
+Folder PATH listing for volume Local Disk
+Volume serial number is 000001BF 082E:07C7
+C:.
+│   app.py
+│   recommendation_engine.py
+│   requirements.txt
+│   training_data.csv
+│
+├───static
+│       style.css
+│
+└───templates
+        index.html
+
+
+(base) C:\Users\palet\workday-training-recommender>notepad training_data.csv
+
+(base) C:\Users\palet\workday-training-recommender>notepad recommendation_engine.py
+
+(base) C:\Users\palet\workday-training-recommender>notepad app.py
+
+(base) C:\Users\palet\workday-training-recommender>notepad templates\index.html
+
+(base) C:\Users\palet\workday-training-recommender>notepad static\style.css
+
+(base) C:\Users\palet\workday-training-recommender>cd C:\Users\palet\workday-training-recommender
+
+(base) C:\Users\palet\workday-training-recommender>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 135-514-610
+127.0.0.1 - - [08/Nov/2026 10:27:44] "GET / HTTP/1.1" 200 -
+
+(base) C:\Users\palet\workday-training-recommender>notepad templates\index.html
+
+(base) C:\Users\palet\workday-training-recommender>python app.py
+
+(base) C:\Users\palet\workday-training-recommender>python app.py
+
+(base) C:\Users\palet\workday-training-recommender>
+
+(base) C:\Users\palet\workday-training-recommender>
+
+(base) C:\Users\palet\workday-training-recommender>
+(base) C:\Users\palet\workday-training-recommender>python app.py
+
+(base) C:\Users\palet\workday-training-recommender>notepad app.py
+
+(base) C:\Users\palet\workday-training-recommender>notepad templates\index.html
+
+(base) C:\Users\palet\workday-training-recommender>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 135-514-610
+127.0.0.1 - - [08/Nov/2026 10:38:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:38:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:39:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:39:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:39:29] "GET / HTTP/1.1" 200 -
+
+(base) C:\Users\palet\workday-training-recommender>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 135-514-610
+127.0.0.1 - - [08/Nov/2026 10:44:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:45:07] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:45:29] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:45:38] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:45:46] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:45:51] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:45:58] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:46:04] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:47:36] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:47:48] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:47:52] "POST /recommend HTTP/1.1" 200 -
+127.0.0.1 - - [08/Nov/2026 10:47:56] "POST /recommend HTTP/1.1" 200 -
